@@ -12,6 +12,8 @@ from canal_green import imagem_green
 from canal_red import imagem_red
 from expansaoHist3trechos import expansao3trechos
 from expansaoHist import expansaoHist
+from negativo import negativoimg
+from altoContraste import contrasteimg
 
 arquivo_entrada = 'imagem13.jpg'
 ##arquivo_saida = 'saidaCinza2.jpg'
@@ -23,3 +25,5 @@ imagem_green(arquivo_entrada)
 imagem_red(arquivo_entrada)
 expansao3trechos(arquivo_entrada)
 expansaoHist(arquivo_entrada)
+negativoimg(arquivo_entrada)
+contrasteimg(arquivo_entrada)
