@@ -14,6 +14,7 @@ from expansaoHist3trechos import expansao3trechos
 from expansaoHist import expansaoHist
 from negativo import negativoimg
 from altoContraste import contrasteimg
+from luminosidade import luminosidadeDef
 
 arquivo_entrada = 'imagem13.jpg'
 ##arquivo_saida = 'saidaCinza2.jpg'
@@ -27,3 +28,4 @@ expansao3trechos(arquivo_entrada)
 expansaoHist(arquivo_entrada)
 negativoimg(arquivo_entrada)
 contrasteimg(arquivo_entrada)
+luminosidadeDef(arquivo_entrada)
